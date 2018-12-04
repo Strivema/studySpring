@@ -29,6 +29,7 @@ public class RedisTest {
 
         byte[] bytes = conn.get("hello".getBytes());
 
+
     }
     @Bean
     public RedisTemplate<String,Item> redisTemplate(RedisConnectionFactory rf){
